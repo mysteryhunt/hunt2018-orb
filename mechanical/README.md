@@ -1,15 +1,12 @@
 # Mind Orb Mechanical Design Files
-Tinkercad revision: 2018-01-02T13:31
+Tinkercad revision: 2018.01.02T21.07
 
 ## 3D Printing Setup
 - LulzBot TAZ 6 -> https://www.lulzbot.com/store/printers/lulzbot-taz-6
 - CAM -> Cura LulzBot Edition -> https://www.lulzbot.com/cura
-    + Material -> `PLA (Verbatim`
+    + Material -> `PLA (Verbatim)`
     + Profile -> `High speed (0.38mm)`
-    + Infill
-        * Base -> 30%
-        * Ring -> 20%
-        * Wedges -> 20%
+    + Infill (all) -> 30%
 - Hatchbox 3.00mm PLA (black) -> https://www.amazon.com/gp/product/B00MEZE7XU/
 - Bed Coating
     + Mix 1:3 parts Elmer's white glue : water
@@ -23,8 +20,6 @@ Tinkercad revision: 2018-01-02T13:31
     + `ring.stl` -> Middle bracket -> holds equatorial LED ring
     + `wedge.stl` -> Top bracket (single) -> hold up-and-out LEDs
 - Cura Project Files
-    + (Cura was doing weird things with saving -> missing for this iteration)
+    + `all-parts_1x.curaproject.3mf` -> All parts needed to make a single inner bracket assembly in one print job
 - GCODE (for TAZ 6)
-    + `base_1x` -> 1 lower bracket
-    + `ring_1x` -> 1 middle bracket
-    + `wedge_4x` -> 4 top 
+    + `all-parts_1x.gcode` -> All parts needed to make a single inner bracket assembly in one print job
